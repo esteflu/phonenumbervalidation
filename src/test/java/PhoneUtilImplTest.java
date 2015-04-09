@@ -7,7 +7,7 @@ import static org.junit.Assert.assertTrue;
 public class PhoneUtilImplTest {
 
     @Test
-    public void sanitize_non_valid_number_in_se_formats() {
+    public void sanitize_non_valid_number_in_se_format() {
         PhoneUtilImpl phoneUtil = new PhoneUtilImpl();
         String validPhoneNumber = "+46721234567";
 
